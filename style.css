@@ -42,6 +42,10 @@ input[type="number"] {
   border-radius: 5px;
   cursor: pointer;
 }
+input[type="number"]::selection {
+  background-color: #f16d00;
+  color: white;
+}
 button {
   width: 100%;
   padding: 10px;
